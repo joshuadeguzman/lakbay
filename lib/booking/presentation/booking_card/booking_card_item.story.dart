@@ -44,7 +44,7 @@ final bookingCardItemStory = WidgetbookComponent(
         description: 'Private Island Resort',
         imageUrl:
             'https://user-images.githubusercontent.com/20706361/236167185-8c7d8dd5-f163-4947-9124-5b601aa63caf.png',
-        price: 60,
+        price: 199,
         starRating: 5,
         onTapBookNow: () {
           // TODO(joshua): Show dialog
@@ -58,7 +58,7 @@ final bookingCardItemStory = WidgetbookComponent(
         description: 'Private Island Resort',
         imageUrl:
             'https://user-images.githubusercontent.com/20706361/236167185-8c7d8dd5-f163-4947-9124-5b601aa63caf.png',
-        price: 30,
+        price: 99,
         buttonTitle: 'Reserve',
         starRating: 3,
         onTapBookNow: () {
