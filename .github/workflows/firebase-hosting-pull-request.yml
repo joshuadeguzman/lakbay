@@ -25,7 +25,7 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
       - name: Build widgetbook
-        run: flutter build web --dart-define=widgetbook=true --release  --web-renderer canvaskit --dart-define=BROWSER_IMAGE_DECODING_ENABLED=false
+        run: flutter build web --dart-define=widgetbook=true --release --web-renderer html --dart-define=BROWSER_IMAGE_DECODING_ENABLED=false
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
